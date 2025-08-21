@@ -103,7 +103,7 @@ export default function App() {
             <img
               src={isDarkMode ? DarkLogo : LightLogo}
               alt="Routed Philanthropy Full Logo"
-              className="h-8 w-auto"
+              className="h-12 w-auto"
             />
           </div>
           <button
