@@ -64,7 +64,7 @@ const organizations = [
     name: 'CARE',
     description: 'CARE works around the globe to save lives, defeat poverty and achieve social justice.',
     tags: ['poverty', 'humanitarian', 'care', 'global'],
-    link: 'https://oceana.org/',
+    link: 'https://www.care.org/',
   },
 ];
 
