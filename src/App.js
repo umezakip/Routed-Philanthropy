@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Search, Moon, Sun, HeartHandshake, Syringe, Leaf, PawPrint, GraduationCap } from 'lucide-react';
+import LightLogo from './blue logo full.svg';
+import DarkLogo from './white logo full.svg';
 
 // A mapping of tags to specific icons for dynamic rendering
 const tagIconMap = {
@@ -97,8 +99,12 @@ export default function App() {
       <header className={`w-full shadow-sm p-4 border-b transition-colors duration-500 ${isDarkMode ? 'bg-gray-800 border-gray-700' : 'bg-white border-gray-200'}`}>
         <div className="max-w-4xl mx-auto flex items-center justify-between">
           <div className="flex items-center space-x-2">
-            <HeartHandshake size={32} className="text-blue-600 dark:text-blue-400" />
-            <span className="text-2xl font-bold">Routed Philanthropy</span>
+            {/* Use the isDarkMode state to choose which logo to display */}
+            <img
+              src={isDarkMode ? DarkLogo : LightLogo}
+              alt="Routed Philanthropy Full Logo"
+              className="h-8 w-auto"
+            />
           </div>
           <button
             onClick={toggleDarkMode}
