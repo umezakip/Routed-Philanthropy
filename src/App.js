@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from 'react';
+import './fonts.css'; // Add this line
+import './index.css';
 import { Search, Moon, Sun, HeartHandshake, Syringe, Leaf, PawPrint, GraduationCap } from 'lucide-react';
 import LightLogo from './blue logo full.svg';
 import DarkLogo from './white logo full.svg';
