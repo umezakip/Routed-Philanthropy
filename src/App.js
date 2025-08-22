@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { Search, Moon, Sun, HeartHandshake, Syringe, Leaf, PawPrint, GraduationCap } from 'lucide-react';
-import Piximisa from './fonts/Piximisa.woff2'; // Add this line
 import LightLogo from './blue logo full.svg';
 import DarkLogo from './white logo full.svg';
 
