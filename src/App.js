@@ -122,14 +122,6 @@ export default function App() {
         {/* Title and Subtitle */}
         <div className="text-center mb-8">
           <h1 className="text-4xl sm:text-5xl font-extrabold font-Piximisa text-blue-600 dark:text-blue-400">
-            <style>
-              {`
-                 @font-face {
-                  font-family: 'Piximisa';
-                  src: url(${Piximisa}) format('woff2');
-                }
-              `}
-            </style>
             Find Your Cause
           </h1>
           <p className="mt-3 text-lg text-gray-600 dark:text-gray-300">
