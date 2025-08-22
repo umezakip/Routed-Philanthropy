@@ -1,10 +1,3 @@
-@font-face {
-  font-family: 'Piximisa';
-  src: url('./fonts/Piximisa.woff2') format('woff2');
-  font-weight: 400; /* Use a value that matches your font file, e.g., 700 for bold */
-  font-style: normal;
-}
-
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
