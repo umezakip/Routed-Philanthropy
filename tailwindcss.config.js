@@ -7,9 +7,7 @@ module.exports = {
   ],
   theme: {
     extend: {
-      fontFamily: {
-        piximisa: ['Piximisa', ...defaultTheme.fontFamily.sans],
-      },
+
     },
   },
   plugins: [],
