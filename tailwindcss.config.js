@@ -8,7 +8,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        mycustomfont: ['MyCustomFont', ...defaultTheme.fontFamily.sans],
+        piximisa: ['Piximisa', ...defaultTheme.fontFamily.sans],
       },
     },
   },
