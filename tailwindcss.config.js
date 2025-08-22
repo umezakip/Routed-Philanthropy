@@ -8,9 +8,7 @@ module.exports = {
   darkMode: 'class',
   theme: {
     extend: {
-      fontFamily: {
-        piximisa: ['Piximisa', ...defaultTheme.fontFamily.sans],
-      },
+
     },
   },
   plugins: [],
