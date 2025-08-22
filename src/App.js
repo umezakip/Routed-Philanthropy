@@ -120,7 +120,7 @@ export default function App() {
       <div className="w-full max-w-4xl mx-auto py-8 px-4 sm:px-6 lg:px-8">
         {/* Title and Subtitle */}
         <div className="text-center mb-8">
-          <h1 className="text-4xl sm:text-5xl font-extrabold text-blue-600 dark:text-blue-400">
+          <h1 className="text-4xl sm:text-5xl font-extrabold font-mycustomfont text-blue-600 dark:text-blue-400">
             Find Your Cause
           </h1>
           <p className="mt-3 text-lg text-gray-600 dark:text-gray-300">
