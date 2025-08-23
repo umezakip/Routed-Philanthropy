@@ -10,6 +10,7 @@ const tagIconMap = {
   'medical': <Syringe size={24} />,
   'environment': <Leaf size={24} />,
   'wildlife': <PawPrint size={24} />,
+  'animals': <PawPrint size={24} />,
   'education': <GraduationCap size={24} />,
 };
 
@@ -18,19 +19,19 @@ const organizations = [
   {
     name: "St. Jude Children's Research Hospital",
     description: 'The mission of St. Jude Children’s Research Hospital is to advance cures, and means of prevention, for pediatric catastrophic diseases through research and treatment.',
-    tags: ['research', 'treatment', 'pediatric', 'hospital', 'children', 'cancer'],
+    tags: ['research', 'treatment', 'pediatric', 'hospital', 'children', 'cancer', 'medical'],
     link: 'https://www.stjude.org/',
   },
   {
     name: "Palestine Children's Relief Fund (PCRF)",
     description: "The Palestine Children's Relief Fund is the primary humanitarian organization in Palestine, delivering crucial medical relief and humanitarian aid to those affected by conflicts.",
-    tags: ['palestine', 'children', 'medical', 'aid'],
+    tags: ['palestine', 'children', 'medical', 'aid', 'humanitarian'],
     link: 'https://www.pcrf.net/',
   },
   {
     name: 'Best Friends Animal Society',
     description: "Best Friends Animal Society is a leading national animal welfare organization dedicated to ending the killing of dogs and cats in America's shelters.",
-    tags: ['no-kill', 'shelter', 'adoption', 'animal', 'pets'],
+    tags: ['no-kill', 'shelter', 'adoption', 'animals', 'pets'],
     link: 'https://bestfriends.org/',
   },
   {
@@ -48,7 +49,7 @@ const organizations = [
   {
     name: 'National Immigrant Justice Center (NIJC)',
     description: 'The National Immigrant Justice Center (NIJC) defends the rights of immigrants, refugees, and asylum seekers.',
-    tags: ['legal aid', 'human rights', 'asylum', 'advocacy', 'immigration', 'refugees', 'immigrant'],
+    tags: ['legal aid', 'human rights', 'asylum', 'advocacy', 'immigration', 'refugees', 'immigrant', 'humanitarian'],
     link: 'https://immigrantjustice.org/',
   },
   {
@@ -60,19 +61,19 @@ const organizations = [
   {
     name: "Cure Alzheimer's Fund",
     description: "Cure Alzheimer's Fund is a non-profit organization dedicated to funding the most promising research to prevent, slow and reverse Alzheimer's disease.",
-    tags: ['alzheimer', 'research', 'prevention', 'dementia'],
+    tags: ['alzheimer', 'research', 'prevention', 'dementia', 'medical'],
     link: 'https://www.curealz.org/',
   },
   {
     name: 'National Pediatric Cancer Foundation',
     description: 'The National Pediatric Cancer Foundation is dedicated to funding research to eliminate childhood cancer.',
-    tags: ['research', 'pediatric', 'treatment', 'cancer'],
+    tags: ['research', 'pediatric', 'treatment', 'cancer', 'medical'],
     link: 'https://nationalpcf.org/',
   },
   {
     name: 'Autistic Self Advocacy Network (ASAN)',
     description: 'The Autistic Self Advocacy Network is a nonprofit organization run by and for individuals with autism.',
-    tags: ['autism', 'rights', 'advocacy', 'neurodiversity'],
+    tags: ['autism', 'rights', 'advocacy', 'neurodiversity', 'medical'],
     link: 'https://autisticadvocacy.org/',
   },
   {
@@ -84,19 +85,19 @@ const organizations = [
   {
     name: 'Organization for Autism Research (OAR)',
     description: "OAR's mission is to use research to address the daily concerns of self-advocates, parents, autism professionals, and caregivers.",
-    tags: ['research', 'education', 'resources', 'autism'],
+    tags: ['research', 'education', 'resources', 'autism', 'medical'],
     link: 'https://researchautism.org/',
   },
   {
     name: 'Direct Relief',
     description: 'Direct Relief is a humanitarian aid organization, active in all 50 states and more than 80 countries, with a mission to improve the health and lives of people affected by poverty or emergencies.',
-    tags: ['disaster', 'health', 'poverty', 'aid'],
+    tags: ['disaster', 'health', 'poverty', 'aid', 'humanitarian'],
     link: 'https://www.directrelief.org/',
   },
   {
     name: 'UNICEF USA',
     description: "UNICEF works in over 190 countries and territories to save children’s lives, to defend their rights, and to help them fulfil their potential.",
-    tags: ['health', 'children', 'education', 'protection'],
+    tags: ['health', 'children', 'education', 'protection', 'humanitarian'],
     link: 'https://www.unicefusa.org/',
   },
   {
@@ -138,7 +139,7 @@ const organizations = [
   {
     name: "Alzheimer's Foundation of America (AFA)",
     description: "The Alzheimer’s Foundation of America provides support, services and education to individuals, families and caregivers affected by Alzheimer’s disease and related dementias nationwide.",
-    tags: ['alzheimer', 'support', 'caregivers', 'education'],
+    tags: ['alzheimer', 'support', 'caregivers', 'education', 'medical'],
     link: 'https://alzfdn.org/',
   },
 ];
