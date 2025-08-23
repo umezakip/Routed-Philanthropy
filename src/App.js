@@ -19,19 +19,19 @@ const organizations = [
   {
     name: "St. Jude Children's Research Hospital",
     description: 'The mission of St. Jude Children’s Research Hospital is to advance cures, and means of prevention, for pediatric catastrophic diseases through research and treatment.',
-    tags: ['research', 'treatment', 'pediatric', 'hospital', 'children', 'cancer', 'medical'],
+    tags: ['medical', 'treatment', 'pediatric', 'hospital', 'children', 'cancer', 'research'],
     link: 'https://www.stjude.org/',
   },
   {
     name: "Palestine Children's Relief Fund (PCRF)",
     description: "The Palestine Children's Relief Fund is the primary humanitarian organization in Palestine, delivering crucial medical relief and humanitarian aid to those affected by conflicts.",
-    tags: ['palestine', 'children', 'medical', 'aid', 'humanitarian'],
+    tags: ['humanitarian', 'children', 'medical', 'aid', 'palestine'],
     link: 'https://www.pcrf.net/',
   },
   {
     name: 'Best Friends Animal Society',
     description: "Best Friends Animal Society is a leading national animal welfare organization dedicated to ending the killing of dogs and cats in America's shelters.",
-    tags: ['no-kill', 'shelter', 'adoption', 'animals', 'pets'],
+    tags: ['animals', 'shelter', 'adoption', 'no-kill', 'pets'],
     link: 'https://bestfriends.org/',
   },
   {
@@ -49,7 +49,7 @@ const organizations = [
   {
     name: 'National Immigrant Justice Center (NIJC)',
     description: 'The National Immigrant Justice Center (NIJC) defends the rights of immigrants, refugees, and asylum seekers.',
-    tags: ['legal aid', 'human rights', 'asylum', 'advocacy', 'immigration', 'refugees', 'immigrant', 'humanitarian'],
+    tags: ['humanitarian', 'human rights', 'asylum', 'advocacy', 'immigration', 'refugees', 'immigrant', 'legal aid'],
     link: 'https://immigrantjustice.org/',
   },
   {
@@ -61,55 +61,55 @@ const organizations = [
   {
     name: "Cure Alzheimer's Fund",
     description: "Cure Alzheimer's Fund is a non-profit organization dedicated to funding the most promising research to prevent, slow and reverse Alzheimer's disease.",
-    tags: ['alzheimer', 'research', 'prevention', 'dementia', 'medical'],
+    tags: ['medical', 'research', 'prevention', 'dementia', 'alzheimer'],
     link: 'https://www.curealz.org/',
   },
   {
     name: 'National Pediatric Cancer Foundation',
     description: 'The National Pediatric Cancer Foundation is dedicated to funding research to eliminate childhood cancer.',
-    tags: ['research', 'pediatric', 'treatment', 'cancer', 'medical'],
+    tags: ['medical', 'pediatric', 'treatment', 'cancer', 'research'],
     link: 'https://nationalpcf.org/',
   },
   {
     name: 'Autistic Self Advocacy Network (ASAN)',
     description: 'The Autistic Self Advocacy Network is a nonprofit organization run by and for individuals with autism.',
-    tags: ['autism', 'rights', 'advocacy', 'neurodiversity', 'medical'],
+    tags: ['medical', 'rights', 'advocacy', 'neurodiversity', 'autism'],
     link: 'https://autisticadvocacy.org/',
   },
   {
     name: 'GiveDirectly',
     description: "GiveDirectly is a nonprofit that lets donors like you send money directly to the world's poorest households.",
-    tags: ['poverty', 'humanitarian', 'give', 'african charity'],
+    tags: ['humanitarian', 'poverty', 'give', 'african charity'],
     link: 'https://www.givedirectly.org/',
   },
   {
     name: 'Organization for Autism Research (OAR)',
     description: "OAR's mission is to use research to address the daily concerns of self-advocates, parents, autism professionals, and caregivers.",
-    tags: ['research', 'education', 'resources', 'autism', 'medical'],
+    tags: ['medical', 'education', 'resources', 'autism', 'research'],
     link: 'https://researchautism.org/',
   },
   {
     name: 'Direct Relief',
     description: 'Direct Relief is a humanitarian aid organization, active in all 50 states and more than 80 countries, with a mission to improve the health and lives of people affected by poverty or emergencies.',
-    tags: ['disaster', 'health', 'poverty', 'aid', 'humanitarian'],
+    tags: ['humanitarian', 'health', 'poverty', 'aid', 'disaster'],
     link: 'https://www.directrelief.org/',
   },
   {
     name: 'UNICEF USA',
     description: "UNICEF works in over 190 countries and territories to save children’s lives, to defend their rights, and to help them fulfil their potential.",
-    tags: ['health', 'children', 'education', 'protection', 'humanitarian'],
+    tags: ['humanitarian', 'children', 'education', 'protection', 'health'],
     link: 'https://www.unicefusa.org/',
   },
   {
     name: "The World Food Programme (WFP)",
     description: "The World Food Programme is the world’s largest humanitarian organization, saving lives in emergencies and using food assistance to build a pathway to peace, stability and prosperity for people recovering from conflict, disasters and the impact of climate change.",
-    tags: ['hunger', 'food', 'aid', 'humanitarian'],
+    tags: ['humanitarian', 'food', 'aid', 'hunger'],
     link: 'https://www.wfp.org/',
   },
   {
     name: 'Morris Animal Foundation',
     description: 'Bridging science and resources to advance the health of animals.',
-    tags: ['health', 'research', 'veterinary', 'animals', 'science'],
+    tags: ['animals', 'research', 'veterinary', 'health', 'science'],
     link: 'https://www.morrisanimalfoundation.org/',
   },
   {
@@ -121,13 +121,13 @@ const organizations = [
   {
     name: 'CARE',
     description: 'CARE works around the globe to save lives, defeat poverty and achieve social justice.',
-    tags: ['poverty', 'humanitarian', 'care', 'global'],
+    tags: ['humanitarian', 'poverty', 'care', 'global'],
     link: 'https://www.care.org/',
   },
   {
     name: 'Children International',
     description: 'We give children in poverty the tools they need to create brighter futures for themselves and their communities.',
-    tags: ['children', 'south america', 'poverty', 'humanitarian'],
+    tags: ['humanitarian', 'south america', 'poverty', 'children'],
     link: 'https://www.children.org/',
   },
   {
@@ -139,7 +139,7 @@ const organizations = [
   {
     name: "Alzheimer's Foundation of America (AFA)",
     description: "The Alzheimer’s Foundation of America provides support, services and education to individuals, families and caregivers affected by Alzheimer’s disease and related dementias nationwide.",
-    tags: ['alzheimer', 'support', 'caregivers', 'education', 'medical'],
+    tags: ['medical', 'support', 'caregivers', 'education', 'alzheimer'],
     link: 'https://alzfdn.org/',
   },
 ];
