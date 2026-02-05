@@ -485,21 +485,44 @@ export default function App() {
       {/* Header Section */}
       <header className={`w-full shadow-sm p-4 border-b transition-colors duration-500 ${isDarkMode ? 'bg-gray-800 border-gray-700' : 'bg-white border-gray-200'}`}>
         <div className="max-w-4xl mx-auto flex items-center justify-between">
-          <div className="flex items-center space-x-2">
+          <button 
+            onClick={() => {
+              setSearchTerm('');
+              setCurrentPage(1);
+              window.scrollTo({ top: 0, behavior: 'smooth' });
+            }}
+            className="flex items-center space-x-2 hover:opacity-80 transition-opacity duration-200"
+            aria-label="Go to home page"
+          >
             {/* Use the isDarkMode state to choose which logo to display */}
             <img
               src={isDarkMode ? DarkLogo : LightLogo}
               alt="Routed Philanthropy Full Logo"
-              className="h-12 w-auto"
+              className="h-12 w-auto cursor-pointer"
             />
-          </div>
-          <button
-            onClick={toggleDarkMode}
-            className="p-2 rounded-full transition-colors duration-200 hover:bg-gray-200 dark:hover:bg-gray-700"
-            aria-label="Toggle dark mode"
-          >
-            {isDarkMode ? <Sun size={24} className="text-yellow-400" /> : <Moon size={24} className="text-gray-500" />}
           </button>
+          <div className="flex items-center space-x-3">
+            <a
+              href="https://ko-fi.com/peterumezaki"
+              target="_blank"
+              rel="noopener noreferrer"
+              className={`hidden sm:flex items-center px-4 py-2 rounded-full text-sm font-medium transition-colors duration-200 ${
+                isDarkMode
+                  ? 'bg-yellow-600 text-white hover:bg-yellow-700'
+                  : 'bg-yellow-500 text-white hover:bg-yellow-600'
+              }`}
+            >
+              <HeartHandshake size={18} className="mr-2" />
+              Support This Website
+            </a>
+            <button
+              onClick={toggleDarkMode}
+              className="p-2 rounded-full transition-colors duration-200 hover:bg-gray-200 dark:hover:bg-gray-700"
+              aria-label="Toggle dark mode"
+            >
+              {isDarkMode ? <Sun size={24} className="text-yellow-400" /> : <Moon size={24} className="text-gray-500" />}
+            </button>
+          </div>
         </div>
       </header>
 
