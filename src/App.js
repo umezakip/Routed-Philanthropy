@@ -516,7 +516,7 @@ export default function App() {
         </div>
 
         {/* Search Bar Section */}
-        <div className={`relative rounded-full shadow-lg border w-full max-w-2xl mx-auto mb-12 transition-colors duration-500 ${isDarkMode ? 'border-gray-700' : 'border-gray-200'}`}>
+        <div className={`relative rounded-full shadow-lg border w-full max-w-2xl mx-auto mb-6 transition-colors duration-500 ${isDarkMode ? 'border-gray-700' : 'border-gray-200'}`}>
           <input
             type="text"
             placeholder="Search for a cause (e.g., 'wildlife', 'education', 'disaster relief')"
@@ -526,6 +526,55 @@ export default function App() {
           />
           <div className="absolute inset-y-0 left-0 flex items-center pl-4 pointer-events-none">
             <Search className="text-gray-500 dark:text-gray-400" />
+          </div>
+        </div>
+
+        {/* Category Buttons */}
+        <div className="max-w-2xl mx-auto mb-12">
+          <p className={`text-sm font-medium mb-3 text-center ${isDarkMode ? 'text-gray-400' : 'text-gray-600'}`}>
+            Popular Categories:
+          </p>
+          <div className="flex flex-wrap justify-center gap-2">
+            {[
+              'Medical',
+              'Immigration',
+              'Palestine',
+              'Justice',
+              'Mental Health',
+              'Animals',
+              'Environment',
+              'Food',
+              'Housing',
+              'LGBTQ',
+              'Children',
+              'Refugees',
+            ].map((category) => (
+              <button
+                key={category}
+                onClick={() => setSearchTerm(category)}
+                className={`px-4 py-2 rounded-full text-sm font-medium transition-all duration-200 ${
+                  searchTerm.toLowerCase() === category.toLowerCase()
+                    ? 'bg-blue-600 text-white shadow-md'
+                    : isDarkMode
+                    ? 'bg-gray-700 text-gray-300 hover:bg-gray-600'
+                    : 'bg-gray-200 text-gray-700 hover:bg-gray-300'
+                }`}
+              >
+                {category}
+              </button>
+            ))}
+            {searchTerm && (
+              <button
+                onClick={() => setSearchTerm('')}
+                className={`px-4 py-2 rounded-full text-sm font-medium transition-all duration-200 ${
+                  isDarkMode
+                    ? 'bg-red-600 text-white hover:bg-red-700'
+                    : 'bg-red-500 text-white hover:bg-red-600'
+                }`}
+              >
+                Clear
+              </button>
+            )}
           </div>
         </div>
 
