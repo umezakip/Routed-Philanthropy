@@ -533,7 +533,7 @@ export default function App() {
           <h1 className="text-4xl sm:text-5xl font-extrabold text-blue-600 dark:text-blue-400">
             Find Your Cause
           </h1>
-          <p className="mt-3 text-lg text-gray-900 dark:text-gray-300">
+          <p className="mt-3 text-lg font-semibold text-gray-900 dark:text-gray-300">
             A centralized hub for verified organizations. Find a cause, make a difference.
           </p>
         </div>
@@ -613,7 +613,7 @@ export default function App() {
                     <span className="text-blue-600 dark:text-blue-400">{icon}</span>
                     <h2 className="text-xl font-bold">{org.name}</h2>
                   </div>
-                  <p className="text-gray-900 dark:text-gray-300 mb-4">{org.description}</p>
+                  <p className="text-black dark:text-gray-300 mb-4 font-medium">{org.description}</p>
                   <a
                     href={org.link}
                     target="_blank"
