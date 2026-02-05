@@ -326,37 +326,25 @@ const organizations = [
     name: "Good360",
     description: "Connects companies with excess goods to nonprofits; 100% efficient distribution.",
     tags: ['efficiency', 'logistics', 'us', 'humanitarian'],
-    link: 'https://good360.org/donate',
-  },
-  {
-    name: "Midwest Food Bank",
-    description: "Massive US food relief organization with 100% fundraising efficiency.",
-    tags: ['hunger', 'us', 'efficiency', 'food'],
-    link: 'https://www.midwestfoodbank.org/donate/',
-  },
-  {
-    name: "The Arc of the US",
-    description: "Protects the civil rights of people with intellectual and developmental disabilities.",
-    tags: ['disability', 'civil rights', 'advocacy', 'humanitarian'],
-    link: 'https://thearc.org/get-involved/donate/',
+    link: 'https://good360.org/donate/help-families-facing-crisis?source_code=PMS2601GDZZZZD&utm_source=fundraising&utm_medium=paid_search&utm_campaign=jan_winter_storm&utm_source_platform=google&utm_content=rsa&utm_term=brand&gclsrc=aw.ds&gad_source=1&gad_campaignid=23200942756&gbraid=0AAAABBtZGehQhqK_uwIyh5EIuWScTTI7C&gclid=Cj0KCQiAnJHMBhDAARIsABr7b859tVev3zejvTEQqrFqhjh95cnyNCA-GEk7OqkhvMDkd4z6L_1HNMMaAvjzEALw_wcB',
   },
   {
     name: "Cancer Research Institute",
     description: "Devoted exclusively to advancing immunotherapy to treat and cure all cancers.",
     tags: ['cancer', 'research', 'immunology', 'medical'],
-    link: 'https://www.cancerresearch.org/donate',
+    link: 'https://fundraise.cancerresearch.org/campaign/754308/donate',
   },
   {
     name: "Michael J. Fox Foundation",
     description: "The world's largest nonprofit funder of Parkinson's disease research.",
     tags: ['parkinsons', 'research', 'neuro', 'medical'],
-    link: 'https://www.michaeljfox.org/donate',
+    link: 'https://give.michaeljfox.org/give/421686/#!/donation/checkout',
   },
   {
     name: "Planned Parenthood",
     description: "Provides reproductive healthcare, sex education, and advocacy in the US.",
     tags: ['health', 'reproductive rights', 'us', 'education'],
-    link: 'https://www.plannedparenthood.org/get-involved/other-ways-give',
+    link: 'https://www.weareplannedparenthood.org/onlineactions/2U7UN1iNhESWUfDs4gDPNg2',
   },
   {
     name: "Equal Justice Initiative",
@@ -371,52 +359,46 @@ const organizations = [
     link: 'https://innocenceproject.org/donate/',
   },
   {
-    name: "Southern Poverty Law Center",
-    description: "Fights hate groups and seeks justice for the most vulnerable in the Deep South.",
-    tags: ['anti-hate', 'civil rights', 'justice', 'advocacy'],
-    link: 'https://donate.splcenter.org/page/14952/donate/1',
-  },
-  {
     name: "Center for Constitutional Rights",
     description: "Uses law as a tool for social change; defends civil rights and human rights.",
     tags: ['law', 'human rights', 'justice', 'advocacy'],
-    link: 'https://ccrjustice.org/donate',
+    link: 'https://ccrjustice.org/donate21ID',
   },
   {
     name: "NAMI",
     description: "National Alliance on Mental Illness; provides advocacy, education, and support.",
     tags: ['mental health', 'support', 'us', 'education'],
-    link: 'https://nami.org/Get-Involved/Donate/',
+    link: 'https://donate.nami.org/give/197406/#!/donation/checkout?utm_source=leftNav&utm_medium=website&utm_campaign=DonationTracking&c_src=WEBGIDD',
   },
   {
     name: "The Trevor Project",
     description: "Provides crisis intervention and suicide prevention services to LGBTQ+ youth.",
     tags: ['lgbtq', 'mental health', 'youth', 'crisis'],
-    link: 'https://give.thetrevorproject.org/give/63307/#!/donation/checkout',
+    link: 'https://www.thetrevorproject.org/resources/article/resources-for-lgbtq-youth-experiencing-homelessness/?gad_source=1&gad_campaignid=22891832046&gbraid=0AAAAADsmOdamomF3AeS59LR4fkP2Ihmkx&gclid=Cj0KCQiAnJHMBhDAARIsABr7b87DGz30AdaKBa1Ck590TRIEEP00cAThJyeFPvyb0UhPCDgXXIwoOrwaAr1NEALw_wcB',
   },
   {
     name: "Covenant House",
     description: "Provides housing and supportive services to youth facing homelessness.",
     tags: ['homelessness', 'youth', 'us', 'shelter'],
-    link: 'https://www.covenanthouse.org/donate',
+    link: 'https://www.covenanthouse.org/get-involved/ways-to-give/donate-now',
   },
   {
     name: "Meals on Wheels America",
     description: "Addresses senior hunger and isolation through home-delivered meals and check-ins.",
     tags: ['senior care', 'hunger', 'us', 'food'],
-    link: 'https://www.mealsonwheelsamerica.org/donate',
+    link: 'https://www.mealsonwheelsamerica.org/donate/',
   },
   {
     name: "Habitat for Humanity",
     description: "Builds strength, stability, and self-reliance through affordable home ownership.",
     tags: ['housing', 'us', 'poverty', 'humanitarian'],
-    link: 'https://www.habitat.org/donate',
+    link: 'https://secure.habitat.org/site/Donation2?df_id=7753&mfc_pref=T&7753.donation=form1',
   },
   {
     name: "City Harvest",
     description: "New York's first and largest food rescue organization.",
     tags: ['food rescue', 'nyc', 'hunger', 'food'],
-    link: 'https://www.cityharvest.org/donate/',
+    link: 'https://secure.cityharvest.org/site/Donation2?df_id=8762&mfc_pref=T&8762.donation=form1&_gl=1*15ykjin*_gcl_au*MTg1ODQ0MTM5Ny4xNzYxODQ4ODQw*FPAU*MTg1ODQ0MTM5Ny4xNzYxODQ4ODQw',
   },
   {
     name: "National Law Center on Homelessness & Poverty",
@@ -428,13 +410,13 @@ const organizations = [
     name: "Human Rights Campaign",
     description: "The largest US civil rights organization working for LGBTQ+ equality.",
     tags: ['lgbtq', 'equality', 'civil rights', 'advocacy'],
-    link: 'https://www.hrc.org/donate',
+    link: 'https://give.hrc.org/page/180263/donate/1?ea.tracking.id=or_gnr_hrc_website',
   },
   {
     name: "Center for Reproductive Rights",
     description: "Global legal organization dedicated to protecting reproductive freedom as a human right.",
     tags: ['reproductive health', 'legal', 'global', 'human rights'],
-    link: 'https://reproductiverights.org/donate/',
+    link: 'https://secure.reproductiverights.org/a/join-the-fight?source=25GPAGE-1201AAX-ON&utm_medium=cpc&utm_source=search_ad&utm_campaign=25GPAGE-1201AAX-ON&utm_content=eg&gad_source=1&gad_campaignid=21280067243&gbraid=0AAAAADnEdZNEHTVTZflhYmta6El8MkfU_&gclid=Cj0KCQiAnJHMBhDAARIsABr7b852D0ToFtwkk3yyzyHYRFL3WRmO3kEi1yiGw0ZowA0jHlYyLcNQ4TIaAuzTEALw_wcB',
   },
   {
     name: "Common Cause",
@@ -447,6 +429,8 @@ const organizations = [
 export default function App() {
   const [searchTerm, setSearchTerm] = useState('');
   const [isDarkMode, setIsDarkMode] = useState(false);
+  const [currentPage, setCurrentPage] = useState(1);
+  const itemsPerPage = 12;
 
   // Toggle dark mode and save preference to local storage
   const toggleDarkMode = () => {
@@ -466,6 +450,35 @@ export default function App() {
     org.description.toLowerCase().includes(searchTerm.toLowerCase()) ||
     org.tags.some(tag => tag.toLowerCase().includes(searchTerm.toLowerCase()))
   );
+
+  // Reset to page 1 when search term changes
+  useEffect(() => {
+    setCurrentPage(1);
+  }, [searchTerm]);
+
+  // Calculate pagination
+  const totalPages = Math.ceil(filteredOrganizations.length / itemsPerPage);
+  const startIndex = (currentPage - 1) * itemsPerPage;
+  const endIndex = startIndex + itemsPerPage;
+  const currentOrganizations = filteredOrganizations.slice(startIndex, endIndex);
+
+  // Pagination handlers
+  const goToPage = (page) => {
+    setCurrentPage(page);
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
+  const goToPrevious = () => {
+    if (currentPage > 1) {
+      goToPage(currentPage - 1);
+    }
+  };
+
+  const goToNext = () => {
+    if (currentPage < totalPages) {
+      goToPage(currentPage + 1);
+    }
+  };
 
   return (
     <div className={`min-h-screen font-sans transition-colors duration-500 ${isDarkMode ? 'bg-gray-900 text-white' : 'bg-gray-50 text-gray-900'}`}>
@@ -517,9 +530,9 @@ export default function App() {
         </div>
 
         {/* Organization Cards Section */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
-          {filteredOrganizations.length > 0 ? (
-            filteredOrganizations.map((org, index) => {
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-8">
+          {currentOrganizations.length > 0 ? (
+            currentOrganizations.map((org, index) => {
               // Get the icon based on the first tag of the organization
               const icon = tagIconMap[org.tags[0]] || <HeartHandshake size={24} />;
               return (
@@ -549,6 +562,88 @@ export default function App() {
             </div>
           )}
         </div>
+
+        {/* Pagination Controls */}
+        {filteredOrganizations.length > 0 && totalPages > 1 && (
+          <div className="flex flex-col items-center space-y-4 mt-8">
+            <div className="flex items-center space-x-2">
+              <button
+                onClick={goToPrevious}
+                disabled={currentPage === 1}
+                className={`px-4 py-2 rounded-lg font-medium transition-colors duration-200 ${
+                  currentPage === 1
+                    ? 'bg-gray-300 text-gray-500 cursor-not-allowed'
+                    : isDarkMode
+                    ? 'bg-blue-600 text-white hover:bg-blue-700'
+                    : 'bg-blue-600 text-white hover:bg-blue-700'
+                }`}
+              >
+                Previous
+              </button>
+
+              <div className="flex items-center space-x-1">
+                {[...Array(totalPages)].map((_, index) => {
+                  const pageNumber = index + 1;
+                  // Show first page, last page, current page, and pages around current
+                  const showPage =
+                    pageNumber === 1 ||
+                    pageNumber === totalPages ||
+                    (pageNumber >= currentPage - 1 && pageNumber <= currentPage + 1);
+
+                  // Show ellipsis
+                  const showEllipsisBefore = pageNumber === currentPage - 2 && currentPage > 3;
+                  const showEllipsisAfter = pageNumber === currentPage + 2 && currentPage < totalPages - 2;
+
+                  if (showEllipsisBefore || showEllipsisAfter) {
+                    return (
+                      <span key={index} className="px-2 text-gray-500">
+                        ...
+                      </span>
+                    );
+                  }
+
+                  if (!showPage) return null;
+
+                  return (
+                    <button
+                      key={index}
+                      onClick={() => goToPage(pageNumber)}
+                      className={`px-4 py-2 rounded-lg font-medium transition-colors duration-200 ${
+                        currentPage === pageNumber
+                          ? isDarkMode
+                            ? 'bg-blue-600 text-white'
+                            : 'bg-blue-600 text-white'
+                          : isDarkMode
+                          ? 'bg-gray-700 text-gray-300 hover:bg-gray-600'
+                          : 'bg-gray-200 text-gray-700 hover:bg-gray-300'
+                      }`}
+                    >
+                      {pageNumber}
+                    </button>
+                  );
+                })}
+              </div>
+
+              <button
+                onClick={goToNext}
+                disabled={currentPage === totalPages}
+                className={`px-4 py-2 rounded-lg font-medium transition-colors duration-200 ${
+                  currentPage === totalPages
+                    ? 'bg-gray-300 text-gray-500 cursor-not-allowed'
+                    : isDarkMode
+                    ? 'bg-blue-600 text-white hover:bg-blue-700'
+                    : 'bg-blue-600 text-white hover:bg-blue-700'
+                }`}
+              >
+                Next
+              </button>
+            </div>
+
+            <p className={`text-sm ${isDarkMode ? 'text-gray-400' : 'text-gray-600'}`}>
+              Showing {startIndex + 1}-{Math.min(endIndex, filteredOrganizations.length)} of {filteredOrganizations.length} organizations
+            </p>
+          </div>
+        )}
       </div>
     </div>
   );
